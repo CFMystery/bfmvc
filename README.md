@@ -11,6 +11,7 @@
 
 - 支持最基本的mvc模式，提供@Controller,@Service,@Autowired,@RequestMapping四种注解。
 - 模仿springmvc，使用DispatherServlet控制路由。
+- 支持简单的IOC。
 - 支持jsp视图。
 - 支持返回json数据。
 - 支持自定义资源路径，jsp路径。
@@ -27,7 +28,7 @@
 
 # 如何使用
 
-参考bfmvc-demo。引入bfmvc pom文件（没有放到maven中央仓库，需要引入本地的 bfmvc jar）
+参考bfmvc-demo。在pom文件中引入bfmvc（没有放到maven中央仓库，需要引入本地的 bfmvc jar，可通过编译框架源码获得）
 
 执行 mvn clean， mvn install.
 
